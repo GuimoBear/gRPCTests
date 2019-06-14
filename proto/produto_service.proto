@@ -1,0 +1,32 @@
+
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+option csharp_namespace = "gRPCTests.Proto.Services";
+
+service ProdutoService {
+	rpc Add(Produto) returns (Produto);
+	rpc All(google.protobuf.Empty) returns (Produtos);
+	rpc ById(IdProduto) returns (Produto);
+	rpc Update(Produto) returns (google.protobuf.Empty);
+	rpc Delete(Produto) returns (google.protobuf.Empty);
+}
+
+message IdProduto {
+	bytes Id = 1;
+}
+
+message Produto {
+	bytes Id = 1;
+	string Descricao = 2;
+	string DescricaoReduzida = 3;
+	double PrecoVenda = 4;
+	double PrecoCompra = 5;
+	google.protobuf.Timestamp Validade = 6;
+}
+
+message Produtos {
+	repeated Produto Produtos = 1;
+}

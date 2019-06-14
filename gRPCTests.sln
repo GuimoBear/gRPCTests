@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCTests.Server", "gRPCTests.Server\gRPCTests.Server.csproj", "{DC96EE24-EF91-42A6-A446-2CACC7731834}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gRPCTests.Server", "gRPCTests.Server\gRPCTests.Server.csproj", "{DC96EE24-EF91-42A6-A446-2CACC7731834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCTests.Core", "gRPCTests.Core\gRPCTests.Core.csproj", "{2943D995-D303-4C2F-8B4E-B767AD1D1647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPCTests.Client", "gRPCTests.Client\gRPCTests.Client.csproj", "{DC1C33BF-54D5-4D61-B375-F69690A08570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DC96EE24-EF91-42A6-A446-2CACC7731834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC96EE24-EF91-42A6-A446-2CACC7731834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC96EE24-EF91-42A6-A446-2CACC7731834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2943D995-D303-4C2F-8B4E-B767AD1D1647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2943D995-D303-4C2F-8B4E-B767AD1D1647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2943D995-D303-4C2F-8B4E-B767AD1D1647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2943D995-D303-4C2F-8B4E-B767AD1D1647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1C33BF-54D5-4D61-B375-F69690A08570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1C33BF-54D5-4D61-B375-F69690A08570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1C33BF-54D5-4D61-B375-F69690A08570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1C33BF-54D5-4D61-B375-F69690A08570}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
