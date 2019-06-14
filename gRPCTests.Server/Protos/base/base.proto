@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCTests.Server.Protobuf.Base";
+
+package base;
+
+message UUID {
+	bytes Data = 1;
+}
